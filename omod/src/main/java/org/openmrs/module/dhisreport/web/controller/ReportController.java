@@ -452,6 +452,7 @@ public class ReportController
             }
             catch ( NumberFormatException e )
             {
+            dvTypeList.add( null );
             }
         }
         gt.getDataValue().addAll( dvTypeList );
